@@ -1,0 +1,25 @@
+Proyecto Final del Curso
+Contexto:
+¿Cuál es el problema? La empresa de seguros TK-U ubicada en la ciudad Jedha a diario realizan cotizaciones, pero el problema es que realizan todo manualmente entonces eso les quita tiempo, y pierden varios clientes por la demora y eso solo les genera 50 cotizaciones al día. 
+
+. El plan base se le aplicaran recargos extra dependiendo las condiciones del asegurado, las condiciones que causan recargos son las siguientes:
+
+. La edad del asegurado debe ser mayor de edad
+. Estado civil del asegurado
+. Edad del cónyuge
+. Cantidad de hijos
+. El precio base es de Q.2,0000
+. El asegurado tiene 23 años
+. Su cónyuge tiene 26 años
+. Por el asegurado se realiza un recargo de 10% a Q.200
+. Por el cónyuge se realiza un recargo de 20% a Q.400
+. El precio total seria de Q.2,600 y el seguro cubriría a ambas personas
+
+1). Edad del asegurado calcular el recargo según la edad del asegurado, 18 a 24 años 10% del precio, 25 a 49 años del precio base, 50 años o mas 30% del precio base, si el asegurado es menor de edad rechazar la cotización.
+
+2). Estado civil y edad del cónyuge Calcular el recargo según la edad del cónyuge 18 a 24 años 10% del precio base, 25 a 49 años 20% del precio base, 50 años o mas 30% del precio base.
+
+3). Calcular el recargo por la cantidad de hijos 20% del precio base por cada hijo, independiente de la edad de los hijos. 
+sumar todo los recargos al precio base para obtener el precio final.
+
+Entonces estos serian los pasos a seguir para hacer la cotización
